@@ -1,0 +1,42 @@
+import sys, os
+
+class Color :
+	normal = '\033[0m'
+	red = '\033[91m'
+	white = '\033[0m'
+	blue = '\033[94m'
+	green = '\033[92m'
+	magenta = '\033[1;35m'
+	yellow = '\33[93m'
+	cyan = '\033[36m'
+	orange = '\033[33m'
+	purple = '\033[35m'
+	lightblue = '\033[94m'
+	lightcyan = '\033[96m'
+	lightgreen = '\033[95m'
+	pink = '\033[95m'
+
+	dim = '\033[2m'
+	underline = '\033[05m'
+	reverse = '\033[07m'
+
+	def disable(self):
+		self.normal = ''
+		self.red = ''
+		self.white = ''
+		self.blue = ''
+		self.green = ''
+		self.magenta = ''
+		self.yellow = ''
+		self.cyan = ''
+		self.orange = ''
+		self.purple = ''
+		self.lightblue = ''
+		self.lightcyan = ''
+		self.lightgreen = ''
+		self.pink = ''
+
+		self.bold = ''
+		self.dim = ''
+		self.underline = ''
+		self.reverse = ''
