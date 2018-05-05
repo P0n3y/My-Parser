@@ -8,7 +8,6 @@ from time import sleep
 
 from sgmllib import SGMLParser
 from display.colors import *
-from OsServerAnalyse import *
 
 import FormulaireParser
 
