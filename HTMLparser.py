@@ -7,7 +7,7 @@ import bs4 as BeautifulSoup
 from time import sleep
 
 from sgmllib import SGMLParser
-from display.colors import *
+from colors import *
 
 import FormulaireParser
 
